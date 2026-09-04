@@ -2,8 +2,6 @@
 
 A Power BI dashboard analyzing sales performance for a wholesale/retail distribution business, covering revenue trends, commodity performance, brand classification, and customer age demographics.
 
-![Dashboard Overview](docs/images/dashboard-overview.png)
-
 ## Overview
 
 The **Sales Analysis** dashboard gives a single view into total sales, order volume, and household reach, with breakdowns by month, commodity, brand type, and customer age category — filterable by month, department, and store.
@@ -60,35 +58,24 @@ Grouped bar chart (log-scale axis) comparing Total Sales vs. Total Orders across
 - **Power BI Desktop** — data modeling, DAX measures, and report layout
 - Data source: wholesale sales transactions dataset (store, department, commodity, brand, and customer demographic data)
 
-## Repository Structure
-
-```
-wholesaler-sales-analysis/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── docs/
-│   ├── images/
-│   │   └── dashboard-overview.png
-│   └── CHANGELOG.md
-└── pbix/
-    └── (place your .pbix file here)
-```
-
-## Getting Started
-
-1. Clone this repository.
-2. Open the `.pbix` file (once added under `pbix/`) in Power BI Desktop.
-3. Update data source connections under **Home > Transform data > Data source settings**.
-4. Refresh the data model.
-
-## Roadmap / Ideas
-
-- [ ] Add store-level drill-through
-- [ ] Add year-over-year comparison
-- [ ] Add commodity-level profit margin analysis
-- [ ] Document DAX measures in `docs/dax-reference.md`
-
+## Features
+- Multi-page dashboard
+- Interactive filters:
+- KPI cards
+- Clean, presentation-ready layout
+## Tools Used
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Dashboard Design
+- Data Analysis
+## What I Learned
+- How to structure and present business data clearly
+- How to build an effective dashboard in Excel
+- How to turn raw data into actionable insights
+- How to communicate findings through visual storytelling
+## About Me
+**Amr Souka**  
+Data Analyst | Accountant | SAP FI Consultant | Excel | Power BI | Data Visualization
 ## License
-
-See [LICENSE](LICENSE).
+This project is shared for portfolio and educational purposes.
